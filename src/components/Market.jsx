@@ -11,7 +11,7 @@ import axios from 'axios';
 function Market({ productos }) {
   const usuarioContext = useContext(Context);
   const { usuario, setUsuario, esFavoritos, setEsFavoritos } = usuarioContext;
-  const urlServer = "https://todomercado.onrender.com";
+  const urlServer = "https://todo-mercado-backend.onrender.com";
   const endpoint = `/favoritosusuario`;
 
   // Verifica si productos no es un array

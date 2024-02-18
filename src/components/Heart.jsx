@@ -7,7 +7,7 @@ import Context from '../Context/MyContext';
 import { useNavigate } from 'react-router-dom';
 
 function Heart({ id_producto, id_usuario }) {
-  const urlServer = "https://todomercado.onrender.com";
+  const urlServer = "https://todo-mercado-backend.onrender.com";
   const endpoint = `/favoritos`;
 
 

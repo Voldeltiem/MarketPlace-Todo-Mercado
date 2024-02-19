@@ -44,7 +44,7 @@ function NuevaPublicacion() {
       event.stopPropagation();
     } else {
       try {
-        const urlServer = 'https://todo-mercado-backend.onrender.com';
+        const urlServer = 'https://todo-mercado-back-end.onrender.com';
         const endpoint = '/nuevaPublicacion';
 
         // Realiza la solicitud al backend para crear una nueva publicación

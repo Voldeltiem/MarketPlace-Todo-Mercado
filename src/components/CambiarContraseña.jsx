@@ -14,7 +14,7 @@ function CambiarContraseña({ show, onHide, email }) {
 
     const cambiarPass = async () => {
         try {
-            const urlServer = "https://todo-mercado-backend.onrender.com";
+            const urlServer = "https://todo-mercado-back-end.onrender.com";
             const endpoint = "/perfil";
 
             // Validar que las contraseñas coincidan

@@ -16,7 +16,7 @@ function Publicaciones() {
     const [productos, setProductos] = useState([]);
     const [marketKey, setMarketKey] = useState(0); // Estado local para cambiar la clave
 
-    const urlServer = "https://todo-mercado-backend.onrender.com";
+    const urlServer = "https://todo-mercado-back-end.onrender.com";
     const endpoint = `/`;
 
     useEffect(() => {

@@ -19,7 +19,7 @@ function Inicio() {
   const [marketKey, setMarketKey] = useState(0); // Estado local para cambiar la clave
   const isMobile = useMediaQuery({ maxWidth: 768 })
 
-  const urlServer = "https://todo-mercado-backend.onrender.com";
+  const urlServer = "https://todo-mercado-back-end.onrender.com";
   const endpoint = `/`;
 
   useEffect(() => {

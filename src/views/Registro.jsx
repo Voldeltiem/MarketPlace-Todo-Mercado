@@ -40,7 +40,7 @@ function Registro() {
   };
 
   const registrarUsuario = async () => {
-    const urlServer = "https://todo-mercado-backend.onrender.com";
+    const urlServer = "https://todo-mercado-back-end.onrender.com";
     const endpoint = "/registro";
     try {
       await axios.post(urlServer + endpoint, usuario);

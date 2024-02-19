@@ -24,7 +24,7 @@ function Perfil() {
   };
 
   const getUsuarioData = async () => {
-    const urlServer = "https://todo-mercado-backend.onrender.com";
+    const urlServer = "https://todo-mercado-back-end.onrender.com";
     const endpoint = "/perfil";
     const token = localStorage.getItem("token");
 

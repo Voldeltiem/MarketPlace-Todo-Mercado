@@ -16,7 +16,7 @@ function PublicacionDetalle() {
   }
 
   useEffect(() => {
-    const urlServer = "https://todo-mercado-backend.onrender.com";
+    const urlServer = "https://todo-mercado-back-end.onrender.com";
     const endpoint = `/publicacionDetalle/`;
 
     const fetchData = async () => {

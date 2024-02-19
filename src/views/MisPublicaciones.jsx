@@ -18,7 +18,7 @@ function MisPublicaciones() {
 
     const [productos, setProductos] = useState([]);
 
-    const urlServer = "https://todo-mercado-backend.onrender.com";
+    const urlServer = "https://todo-mercado-back-end.onrender.com";
     const endpoint = `/misPublicaciones`;
     /* const endpoint = `/`;*/
 

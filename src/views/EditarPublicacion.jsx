@@ -26,7 +26,7 @@ function EditarPublicacion() {
 
     const eliminarPublicacion = async () =>{
         try {
-            const urlServer = 'https://todo-mercado-backend.onrender.com';
+            const urlServer = 'https://todo-mercado-back-end.onrender.com';
             const endpoint = `/mispublicaciones/${id}`;
 
             // Realiza la solicitud al backend para eliminar una publicación
@@ -61,7 +61,7 @@ function EditarPublicacion() {
             event.stopPropagation();
         } else {
             try {
-                const urlServer = 'https://todo-mercado-backend.onrender.com';
+                const urlServer = 'https://todo-mercado-back-end.onrender.com';
                 const endpoint = '/editarPublicacion';
 
                 // Realiza la solicitud al backend para editar una nueva publicación
@@ -89,7 +89,7 @@ function EditarPublicacion() {
     }
 
     useEffect(() => {
-        const urlServer = "https://todo-mercado-backend.onrender.com";
+        const urlServer = "https://todo-mercado-back-end.onrender.com";
         const endpoint = `/publicacionDetalle/`;
 
         const fetchData = async () => {
